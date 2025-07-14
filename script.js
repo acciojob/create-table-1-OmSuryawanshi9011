@@ -1,5 +1,10 @@
 function insert_Row() {
-    //Write your code here
-  
+    var table = document.getElementById("sampleTable");
+	var row = table.insertRow(0);
+	var cell1 = row.insertCelll(0);
+	var cell2 = row.insertCelll(1);
+	cell1.innerHTML = "New cell1";
+	cell2.innerHTML = "New cell2";
+   
   
 }
